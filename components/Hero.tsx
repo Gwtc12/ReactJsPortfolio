@@ -1,5 +1,5 @@
 import { FaLocationArrow } from "react-icons/fa";
-import MagicButton from "./ui/MagicButton";
+import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight-new"; // Cambia esto - quita el "-new"
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
@@ -27,7 +27,7 @@ const Hero = () => {
           </p>
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Not just solutions — symbols of thought made real"
+            words="Not  just  solutions — symbols  of  thought  made  real"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi! I&apos;m Mario, Backend Developer specializing in Java
