@@ -8,7 +8,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize code quality and consistency, knowing they are key to sustainable development",
+    title:
+      "I prioritize code quality and consistency, knowing they are key to sustainable development",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -49,7 +50,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a Java-based solution to optimize medication adherence through smart reminders",
+    title:
+      "Currently building a Java-based solution to optimize medication adherence through smart reminders",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -107,33 +109,38 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Mario has been both inspiring and educational. His depth in Java and his proactive use of AWS tools set a high bar for the rest of our team. He’s the kind of developer who’s always one step ahead, proposing scalable and elegant solutions. I’d gladly work alongside him again.",
+    name: "Kyle Evans",
+    title: "Senior Backend Developer, NexaTech Solutions",
+     avatar:"KyleE.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Mario is more than a developer — he’s a problem solver. Every time we faced a challenge, he brought not just technical knowledge, but also calm and clarity. His ability to simplify complex problems, especially in cloud-based architectures, makes him an invaluable teammate.",
+    name: "Jason MacFadden",
+    title: "Full Stack Engineer, NexaTech Solutions",
+    avatar:"JasonM.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Mario stood out from the very beginning of our advanced cloud architecture course. His questions reflected a deep curiosity and his assignments consistently exceeded expectations. He brought strong Java fundamentals into every AWS use case we explored. A committed learner with a real-world mindset.",
+    name: "Melissa Johnson",
+    title: "Lead Technical Instructor, SGS Société Générale de Surveillance",
+    avatar:"MelissaJ.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I hired Mario to build a secure backend for our e-commerce platform and the experience was seamless. He handled both Java development and AWS deployment with total confidence. The delivery was ahead of schedule, and he was incredibly responsive to feedback. Highly recommend!",
+    name: "Shawn Kumar",
+    title: "Founder, Oaklane Apparel",
+    avatar:"ShawnK.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "From day one, Mario brought clarity, structure, and great communication to our custom CRM project. His understanding of user needs and system efficiency helped us go from idea to production smoothly. If you're looking for someone who truly cares about quality, Mario's your guy.",
+    name: "Natalie Paterson",
+    title: "Operations Manager, GEG Consulting",
+    avatar:"NatalieP.jpg",
   },
 ];
 
@@ -141,8 +148,8 @@ export const companies = [
   {
     id: 1,
     name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    img: "/AWSlo.png",
+    nameImg: "/AWSly2.png",
   },
   {
     id: 2,

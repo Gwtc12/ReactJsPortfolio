@@ -1,14 +1,14 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
-import { PointerHighlight } from "./ui/pointer-highlight";
+import { PointerHighlight } from "./ui/Pointer-highlight";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
+    <section id="Projects" className="py-20">
       <h1 className="heading text-xl md:text-2xl lg:text-3xl">
         Some featured work from{" "}
         <PointerHighlight
@@ -27,8 +27,8 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
-              title="/ui.aceternity.com"
-              href="https://twitter.com/mannupaaji"
+              title="Title Here"
+              href="Link Here"
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
@@ -84,7 +84,7 @@ const RecentProjects = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
