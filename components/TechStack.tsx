@@ -6,8 +6,8 @@ import { companies } from "@/data";
 interface Company {
   id: number;
   name: string;
-  img: string;
-  nameImg: string;
+  img?: string;
+  nameImg?: string;
 }
 
 interface TechStackProps {
