@@ -8,6 +8,7 @@ import RecentProjects from "@/components/RecentProyects";
 import { navItems } from "@/data";
 import Clients from "../components/Clients";
 import TechStack from "@/components/TechStack";
+import Experience from "@/components/Experience";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <RecentProjects/>
         <TechStack/>
         <Clients/>
+        <Experience />
       </div>
     </main>
   );
