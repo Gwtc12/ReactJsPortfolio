@@ -7,8 +7,10 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 const Approach = () => {
   return (
     <section className="w-full py-20">
-      <h1 className="heading">
-        My <span className="text-purple">approach</span>
+      <h1 className="heading text-xl md:text-2xl lg:text-3xl">
+        My {" "}
+        <span className="text-purple text-2xl md:text-3xl lg:text-4xl">
+         approach </span>
       </h1>
       
       {/* Grid responsivo: 1 en móvil, 2 en tablet, 4 en desktop */}

@@ -1,16 +1,13 @@
 "use client";
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
-
 import Lottie from "react-lottie";
-
 import { cn } from "@/lib/utils";
-
-
 import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
+import { TextRevealCard, TextRevealCardTitle, TextRevealCardDescription } from "./TextRevealCard";
 
 export const BentoGrid = ({
   className,
@@ -50,8 +47,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-const leftLists = ["Java +17", "AWS", "SpringBoot"];
-  const rightLists = ["MySQL", "MongoDB", "Docker",];
+  const leftLists = ["Java +17", "AWS", "SpringBoot"];
+  const rightLists = ["MySQL", "MongoDB", "Docker"];
 
   const [copied, setCopied] = useState(false);
 
@@ -104,6 +101,20 @@ const leftLists = ["Java +17", "AWS", "SpringBoot"];
             />
           )}
         </div>
+
+       
+        {id === 4 && (
+          <div className="flex items-center justify-center h-full w-full p-4">
+            <TextRevealCard
+              text="You know the business"
+              revealText="I know the chemistry"
+              className="w-full max-w-lg h-fit bg-transparent border-white/[0.1]"
+            >
+        
+            </TextRevealCard>
+          </div>
+        )}
+
         {id === 6 && (
           <BackgroundGradientAnimation>
             <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div>
@@ -113,7 +124,7 @@ const leftLists = ["Java +17", "AWS", "SpringBoot"];
         <div
           className={cn(
             titleClassName,
-            "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
+            id === 4 ? "hidden" : "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
           )}
         >
           <div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
@@ -155,9 +166,9 @@ const leftLists = ["Java +17", "AWS", "SpringBoot"];
               </div>
             </div>
           )}
+
           {id === 6 && (
             <div className="mt-5 relative">
-             
               <div
                 className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
                   }`}

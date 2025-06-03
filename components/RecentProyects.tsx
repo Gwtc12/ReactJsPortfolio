@@ -16,7 +16,7 @@ const RecentProjects = () => {
           pointerClassName="text-gray-400"
         >
           <span className="text-purple text-2xl md:text-3xl lg:text-4xl">
-            the past few months
+            The past few months
           </span>
         </PointerHighlight>
       </h1>
